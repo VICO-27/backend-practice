@@ -139,7 +139,7 @@ More advanced Django features (authentication, APIs, deployment, security) will 
 
 ## 👤 Author
 
-**Vico**  
+**Ashenafi Deresa**  
 Computer Science & Engineering Student  
 Backend & Full-Stack Developer in Progress  
 
