@@ -43,7 +43,7 @@ The focus of this repo is **practice-driven learning** — understanding how bac
 ---
 
 ## 📂 Repository Structure
-
+```
 backend-practice/
 │
 ├── config/
@@ -78,8 +78,8 @@ backend-practice/
 │ ├── MiniBackendTwist.py
 │ └── main.py
 
-
-
+Continue like this
+```
 
 > Folder names represent **learning stages**, not just isolated scripts.
 
