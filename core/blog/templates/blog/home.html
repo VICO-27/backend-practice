@@ -1,0 +1,27 @@
+{% extends 'blog/base.html' %}
+{% block title %}Home{% endblock %}
+
+{% block content %}
+<div class="container">
+    <h1>Welcome Home 🏠</h1>
+    <p>This page uses template inheritance and displays real posts.</p>
+
+    <hr>
+
+    <h2>Blog Posts</h2>
+
+
+    {% for post in posts %}
+        <div class="post">
+            <h3>
+                <a href="{% url 'post_detail' post.slug}">{{ post.title }}</a>
+            </h3>
+            <p>{{ post.content|truncatechars:100 }}</p>
+            <em>Published on {{ post.created_at|date:"F j, Y, H:i" }}</em>
+        </div>
+    {% endfor %}
+
+
+
+</div>
+{% endblock %}
